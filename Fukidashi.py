@@ -81,16 +81,16 @@ if __name__ == "__main__":
     p = wx.Panel(frame, wx.ID_ANY)
     l = wx.StaticText(p, wx.ID_ANY,'対象のプログラムを前面に出し、[Ctrl]+[Space]を押してください。\n[Alt]+[Space]で文字を解析します。' ,pos=(10,10))    
 
-    spinctrl = wx.SpinCtrl(p, wx.ID_ANY,min=0, max=500,pos=(10,55))
+    spinctrl = wx.SpinCtrl(p, wx.ID_ANY,min=0, max=1000,pos=(10,55))
     spinText = wx.StaticText(p, wx.ID_ANY,'上マージン' ,pos=(100,60))
 
-    spinctrl2 = wx.SpinCtrl(p, wx.ID_ANY,min=0, max=500,pos=(10,85))
+    spinctrl2 = wx.SpinCtrl(p, wx.ID_ANY,min=0, max=1000,pos=(10,85))
     spinText2 = wx.StaticText(p, wx.ID_ANY,'左マージン' ,pos=(100,90))
 
-    spinctrl3 = wx.SpinCtrl(p, wx.ID_ANY,min=0, max=500,pos=(10,115))
+    spinctrl3 = wx.SpinCtrl(p, wx.ID_ANY,min=0, max=1000,pos=(10,115))
     spinText3 = wx.StaticText(p, wx.ID_ANY,'右マージン' ,pos=(100,120))
 
-    spinctrl4 = wx.SpinCtrl(p, wx.ID_ANY,min=0, max=500,pos=(10,145))
+    spinctrl4 = wx.SpinCtrl(p, wx.ID_ANY,min=0, max=1000,pos=(10,145))
     spinText4 = wx.StaticText(p, wx.ID_ANY,'下マージン' ,pos=(100,150))
 
     layout = wx.BoxSizer(wx.VERTICAL)
